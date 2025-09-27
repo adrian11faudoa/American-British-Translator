@@ -1,18 +1,13 @@
 'use strict';
 
-const SudokuSolver = require('../controllers/sudoku-solver.js');
+const Translator = require('../components/translator.js');
 
 module.exports = function (app) {
   
-  let solver = new SudokuSolver();
+  const translator = new Translator();
 
-  app.route('/api/check')
+  app.route('/api/translate')
     .post((req, res) => {
-
-    });
-    
-  app.route('/api/solve')
-    .post((req, res) => {
-
+      
     });
 };
