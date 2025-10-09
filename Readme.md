@@ -5,6 +5,7 @@ Subject:
 This is the boilerplate for the American British Translator project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/american-british-translator
 
 
+
     All logic can go into /components/translator.js
 
     Complete the /api/translate route in /routes/api.js
@@ -56,6 +57,7 @@ Write the following tests in tests/2_functional-tests.js:
     Translation with text that needs no translation: POST request to /api/translate
 
 
+
 Tests
 
 1. You should provide your own project, not the example URL.
@@ -79,16 +81,5 @@ Tests
 10. All 24 unit tests are complete and passing.
 
 11. All 6 functional tests are complete and passing.
-
-
-
-
-
-
-
-
-
-
-
 
 
